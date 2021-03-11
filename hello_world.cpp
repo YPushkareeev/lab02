@@ -1,13 +1,14 @@
 #include <iostream>
-#include<string>
+#include <string>
 
-
-int main(int argc, char** argv)
+int
+main(int argc, char** argv)
 {
-std::string str;
-std::cout << "Your name:";
-getline(cin, str);
-std::cout<< "Hello world "<< str <<endl;// program will say "hello,world,(your name)"
+  std::string str;
+  std::cout << "Your name:";
+  getline(cin, str);
+  std::cout << "Hello world " << str
+            << endl; // программа скажет: Привет,мир,+твоё имя
 
- return 1;
+  return 1;
 }
